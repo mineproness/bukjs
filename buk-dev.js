@@ -1,5 +1,4 @@
 var buk = (e) => {
-
   if (typeof e == "string" || typeof e == "function" || typeof e == "object") {
     return {
       onclick: function (func) {
